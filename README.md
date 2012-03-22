@@ -12,7 +12,10 @@ Usage
 =====
 
     > require 'skeeter'
-    > puts Skeeter.get('http://www.softicons.com/download/animal-icons/animal-icons-by-martin-berube/png/128/moose.png', :width => 80)
+    > puts Skeeter.get(
+        'http://www.softicons.com/download/animal-icons/animal-icons-by-martin-berube/png/128/moose.png',
+        :width => 80
+      )
 
          .'..                                                              ..'..    
       .'cdkd,.   ..''.                                            ..,..   ..lkxl,.. 
